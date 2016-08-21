@@ -1,0 +1,35 @@
+{
+  "name": "aircast",
+  "version": "0.1.0",
+  "description": "Server (proxy) app for streaming to multiple AirPlay devices",
+  "main": "bin/aircast",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/100hz/aircast.git"
+  },
+  "keywords": [
+    "music",
+    "audio",
+    "airplay",
+    "airtunes",
+    "sound"
+  ],
+  "author": "Sebastian Krüger <sk@theblackestbox.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/100hz/aircast/issues"
+  },
+  "homepage": "https://github.com/100hz/aircast#readme",
+  "dependencies": {
+    "airtunes": "github:marcokeur/node_airtunes",
+    "body-parser": "^1.15.2",
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "mdns": "^2.3.3",
+    "plist": "2.0.1",
+    "winston": "^2.2.0"
+  }
+}
