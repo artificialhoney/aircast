@@ -14,6 +14,21 @@ Server (proxy) app for streaming to multiple AirPlay devices.
 
 Please see `bin\aircast --help`:
 
+```
+  Usage: aircast [options]
+
+  Options:
+
+    -h, --help                         output usage information
+    -V, --version                      output the version number
+    -w, --web-port [port]              Set [port] for REST/WS service. Defaults to "9000"
+    -s, --stream-port [port]           Set [port] for reading streaming data from. Defaults to "9001"
+    -l, --level [level]                Set default [level] for sound. Defaults to "50"
+    -m, --mount-path [path]            Set [path] to mount files for an UI
+    -b, --blacklist [name1,name2,...]  Disallow devices by [names...]
+    -v, --verbose                      Increase verbosity
+```
+
 ## Contributors
 
 - [Sebastian Krüger](http://theblackestbox.net)
