@@ -1,6 +1,6 @@
 {
   "name": "aircast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Server (proxy) app for streaming to multiple AirPlay devices",
   "main": "bin/aircast",
   "scripts": {
