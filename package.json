@@ -1,6 +1,6 @@
 {
   "name": "aircast",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Server (proxy) app for streaming to multiple AirPlay devices",
   "author": {
     "name": "Sebastian Krüger",
